@@ -18,19 +18,9 @@ class _MainScreenState extends State<MainScreen> {
   void initState(){
     super.initState();
     final commitProvider = Provider.of<CommitProvider>(context, listen: false);
-    commitProvider.getRepoCommits();
-
-    scrollController.addListener(() async {
-      if (scrollController.position.pixels == scrollController.position.maxScrollExtent) {
-        setState(() {
-          isLoading = true;
-        });
-        await commitProvider.getRepoCommits();
-        setState(() {
-          isLoading = false;
-        });
-      }
-    });
+    if(commitProvider.repo.isEmpty) {
+      commitProvider.getRepoCommits();
+    }
   }
 
   @override
