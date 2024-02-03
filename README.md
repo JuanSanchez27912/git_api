@@ -23,3 +23,5 @@ In the cards generated you will find the next info. :
 2. The committer's name.
 3. The e-mail associated.
 4. The message sended in the commited data.
+
+Please feel free to make commits and refresh the view, it's full real time through provider state management.
