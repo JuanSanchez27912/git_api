@@ -1,16 +1,8 @@
 # git_history
 
-A new Flutter project.
+This is a test App for the use of the Github REST API
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+First things first, you need to clone the repository in your computer using the options in the image
+![Captura de pantalla 2024-02-03 a la(s) 1 11 32 p  m](https://github.com/JuanSanchez27912/git_api/assets/158625633/bc0548cd-70e0-453d-adb7-707111423832)
