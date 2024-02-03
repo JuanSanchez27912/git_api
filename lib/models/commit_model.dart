@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-CommitModel commitModelFromJson(String str) => CommitModel.fromJson(json.decode(str));
+List<CommitModel> commitModelFromJson(String str) => List<CommitModel>.from(json.decode(str).map((x) => CommitModel.fromJson(x)));
 
-String commitModelToJson(CommitModel data) => json.encode(data.toJson());
+String commitModelToJson(List<CommitModel> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class CommitModel {
   String? sha;
