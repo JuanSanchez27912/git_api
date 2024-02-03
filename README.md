@@ -12,3 +12,14 @@ After clone it, you're going to open the "pubspec.yaml" file and in the upper pa
 to get the dependencies (in the case that you don't have it already).
 
 ![Captura de pantalla 2024-02-03 a la(s) 1 20 37 p  m](https://github.com/JuanSanchez27912/git_api/assets/158625633/83c4621a-5759-4a5e-a2d4-6b7222f5992e)
+
+Then you run it using a virtual device or a smartphone with the "USB Debug" option activated, and finally when it runs you will find this view:
+
+![Captura de pantalla 2024-02-03 a la(s) 1 41 03 p  m](https://github.com/JuanSanchez27912/git_api/assets/158625633/bda33019-4c70-4386-af69-36ee7c5aa343)
+
+In the cards generated you will find the next info. :
+
+1. The user avatar.
+2. The committer's name.
+3. The e-mail associated.
+4. The message sended in the commited data.
